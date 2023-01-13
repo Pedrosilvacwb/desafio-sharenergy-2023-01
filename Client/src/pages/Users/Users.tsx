@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
 
 const Users = () => {
-  return <div>Users</div>;
+  return (
+    <div>
+      <Header page="users" />
+    </div>
+  );
 };
 
 export default Users;
